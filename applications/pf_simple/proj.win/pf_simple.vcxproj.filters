@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file generate by plain framework admin tool, date: 2017-05-25 23:57:41 -->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier></UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\packet">
+      <UniqueIdentifier></UniqueIdentifier>
+    </Filter>
+  </ItemGroup>  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier></UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\packet">
+      <UniqueIdentifier></UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\_config.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\main.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\net.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\passgen.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\packet\config.h">
+      <Filter>include\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\packet\helloworld.h">
+      <Filter>include\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\packet\sayhello.h">
+      <Filter>include\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>  <ItemGroup>
+    <ClCompile Include="..\src\main.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\net.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\passgen.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\packet\helloworld.cc">
+      <Filter>src\packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\packet\sayhello.cc">
+      <Filter>src\packet</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="pf_simple.rc" />
+  </ItemGroup>
+</Project>

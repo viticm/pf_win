@@ -1,0 +1,7 @@
+1
+en:
+  This is a flag file of visual studio script if need revert.
+  If you don't understand this, can't delete it.
+cn:
+    这个文件用来作为是否需要还原vcscript的标记。
+    如果你不清楚该文件的用途，则不要删除它。

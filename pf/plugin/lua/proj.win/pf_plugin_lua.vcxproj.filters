@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file generate by plain framework admin tool, date: 2017-05-25 23:57:20 -->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+   <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier></UniqueIdentifier>
+    </Filter>
+  </ItemGroup>  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier></UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+   <ItemGroup>
+    <ClInclude Include="..\include\cache.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\config.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\export.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\file.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\logger.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>  <ItemGroup>
+    <ClCompile Include="..\src\cache.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\export.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\file.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\logger.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+   <ItemGroup>
+    <ResourceCompile Include="pf_plugin_lua.rc" />
+  </ItemGroup>
+</Project>
