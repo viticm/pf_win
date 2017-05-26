@@ -1,0 +1,7 @@
+STRING	INT	INT	STRING	INT	STRING	INT	INT	INT	INT	INT	INT
+index	size	data_size	save_columns	condition_size	condition	save_interval	group_index	same_columns	no_save	recycle_size	share_key
+#索引，这里是数据库表的表名，这张表为程序控制	记录数量，此值当然越大越好，不过要看机器内存足不足够	保存查询结果数据需要的最大长度，尽量接近需要的长度	保存的字段	查询条件	(column1,column2...)那么查询语句的where为 column1 = val1 and column2 = val2 或 (column1#>|column2#<...)表示查询的语句的where为column1 > val1 and column2 < val2	缓存存盘时间间隔（秒）	组别同一组公用一个key	是否公用相同的数据库查询字段	是否不保存（查询语句不保存）	内存回收的数量，0表示该缓存不会被回收，如果在同一组内则回收数量应该一致，查询的就应该自己立即删除	内存共享key
+t_user	5000	102400	id	0		900	0	1	0	2000	10021
+t_test	1	20		0		900	1	1	0	2000	10021
+t_global	1	10240		0			2	1	0	0	10021
+query	1000	10240		0			99	0	1	0	1000
