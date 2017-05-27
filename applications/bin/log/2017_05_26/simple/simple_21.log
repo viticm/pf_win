@@ -1,5 +1,0 @@
-21:41:46 (8564 0.0470) [sys.memory.share] (Base::create) success! handle = 468, key = 1000
-21:41:46 (8564 0.0470) [sys.memory.share] (Base::create) success! handle = 476, key = 10021
-21:41:46 (8564 0.1870) [sys.memory.share] (Base::create) success! handle = 480, key = 10001
-21:41:46 (8564 0.2030) [sys.memory.share] (Base::create) success! handle = 484, key = 10002
-21:41:46 (8564 0.2030) [sys.memory.share] (Base::create) success! handle = 488, key = 10003

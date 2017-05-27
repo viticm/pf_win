@@ -1,7 +1,0 @@
-23:20:12 (3976 0.5150) [net.connection.manager] (Connector::connect) success! ip: 127.0.0.1, port: 12306
-23:21:08 (17032 0.4840) [net.connection.manager] (Connector::connect) success! ip: 127.0.0.1, port: 12306
-23:21:57 (18944 0.4530) [net.connection.manager] (Connector::connect) success! ip: 127.0.0.1, port: 12306
-23:23:15 (16376 0.4680) [net.connection.manager] (Connector::connect) success! ip: 127.0.0.1, port: 12306
-23:23:55 (11048 0.4830) [net.connection.manager] (Connector::connect) success! ip: 127.0.0.1, port: 12306
-23:24:52 (17232 0.4680) [net.connection.manager] (Connector::connect) success! ip: 127.0.0.1, port: 12306
-23:25:38 (19976 0.4680) [net.connection.manager] (Connector::connect) success! ip: 127.0.0.1, port: 12306
