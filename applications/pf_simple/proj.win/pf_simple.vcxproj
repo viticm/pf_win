@@ -145,7 +145,8 @@
     <PostBuildEvent>
       <Command>xcopy .\..\..\..\pf\dll\$(PlatformName)\$(Configuration)\*.dll .\..\..\bin\ /S /R /Y
 xcopy .\..\..\..\pf\core\dll\$(PlatformName)\$(Configuration)\*.dll .\..\..\bin\ /S /R /Y
-xcopy .\..\..\..\pf\dependencies\dll\$(PlatformName)\$(Configuration)\*.dll .\..\..\bin\ /S /R /Y</Command>
+xcopy .\..\..\..\pf\dependencies\dll\$(PlatformName)\$(Configuration)\*.dll .\..\..\bin\ /S /R /Y
+xcopy .\..\bin\$(PlatformName)\$(Configuration)\$(ProjectName).exe .\..\..\bin\ /S /R /Y</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
